@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mv59xL0K1u7u4BWfrHZtyu0rK0fOETSHwY1Px6bcCJXmff5itnNLUahJZj6ywwWsoqojyCdt8Rfuk8mY131dqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mglykofridis\\mslearn-tailspin-spacegame-web\\Tailspin.SpaceGame.Web\\Tailspin.SpaceGame.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mglykofridis\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

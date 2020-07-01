@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3c296743-3096-4f86-9ad5-e601f41f3183" name="mglykofridis@VULGARIS 2020-07-01 15:36:12" runUser="MIRABEAU\mglykofridis" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-07-01T15:36:12.2851465+02:00" queuing="2020-07-01T15:36:12.2851484+02:00" start="2020-07-01T15:36:11.3954706+02:00" finish="2020-07-01T15:36:12.2996629+02:00" />
+  <TestSettings name="default" id="0c99cb9a-f476-49ea-92b4-9cf39841b091">
+    <Deployment runDeploymentRoot="mglykofridis_VULGARIS_2020-07-01_15_36_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0279e00d-37aa-497c-9764-db972d687059" testId="e6aa1db8-79bb-5f9e-f506-6e6015603603" testName="FetchOnlyRequestedGameRegion(&quot;Pinwheel&quot;)" computerName="VULGARIS" duration="00:00:00.0011350" startTime="2020-07-01T15:36:12.0000000+02:00" endTime="2020-07-01T15:36:12.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0279e00d-37aa-497c-9764-db972d687059" />
+    <UnitTestResult executionId="1da16689-7953-404a-bfb8-55accaebb6f0" testId="a665ae80-d9ef-3d21-de02-f9894a2373ef" testName="FetchOnlyRequestedGameRegion(&quot;Milky Way&quot;)" computerName="VULGARIS" duration="00:00:00.0233020" startTime="2020-07-01T15:36:12.0000000+02:00" endTime="2020-07-01T15:36:12.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1da16689-7953-404a-bfb8-55accaebb6f0" />
+    <UnitTestResult executionId="4fd49035-0409-49d9-9bd7-4be100c114ab" testId="71b55203-9f41-f140-7b8a-b173669f83d5" testName="FetchOnlyRequestedGameRegion(&quot;Messier 82&quot;)" computerName="VULGARIS" duration="00:00:00.0010860" startTime="2020-07-01T15:36:12.0000000+02:00" endTime="2020-07-01T15:36:12.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fd49035-0409-49d9-9bd7-4be100c114ab" />
+    <UnitTestResult executionId="d0890be9-d9af-4a05-a862-d5bf7399d5b2" testId="dd69ca11-8574-49f6-142c-a0d7db5e68b0" testName="FetchOnlyRequestedGameRegion(&quot;NGC 1300&quot;)" computerName="VULGARIS" duration="00:00:00.0011240" startTime="2020-07-01T15:36:12.0000000+02:00" endTime="2020-07-01T15:36:12.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0890be9-d9af-4a05-a862-d5bf7399d5b2" />
+    <UnitTestResult executionId="c64bee46-18d2-444f-86e4-023e67408b14" testId="8158b57c-2d66-8b32-96cb-f229ab2b8992" testName="FetchOnlyRequestedGameRegion(&quot;Andromeda&quot;)" computerName="VULGARIS" duration="00:00:00.0014590" startTime="2020-07-01T15:36:12.0000000+02:00" endTime="2020-07-01T15:36:12.0000000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c64bee46-18d2-444f-86e4-023e67408b14" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FetchOnlyRequestedGameRegion(&quot;Milky Way&quot;)" storage="c:\users\mglykofridis\mslearn-tailspin-spacegame-web\tailspin.spacegame.web.tests\bin\release\netcoreapp3.1\tailspin.spacegame.web.tests.dll" id="a665ae80-d9ef-3d21-de02-f9894a2373ef">
+      <Execution id="1da16689-7953-404a-bfb8-55accaebb6f0" />
+      <TestMethod codeBase="C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tests.DocumentDBRepository_GetItemsAsyncShould" name="FetchOnlyRequestedGameRegion(&quot;Milky Way&quot;)" />
+    </UnitTest>
+    <UnitTest name="FetchOnlyRequestedGameRegion(&quot;NGC 1300&quot;)" storage="c:\users\mglykofridis\mslearn-tailspin-spacegame-web\tailspin.spacegame.web.tests\bin\release\netcoreapp3.1\tailspin.spacegame.web.tests.dll" id="dd69ca11-8574-49f6-142c-a0d7db5e68b0">
+      <Execution id="d0890be9-d9af-4a05-a862-d5bf7399d5b2" />
+      <TestMethod codeBase="C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tests.DocumentDBRepository_GetItemsAsyncShould" name="FetchOnlyRequestedGameRegion(&quot;NGC 1300&quot;)" />
+    </UnitTest>
+    <UnitTest name="FetchOnlyRequestedGameRegion(&quot;Messier 82&quot;)" storage="c:\users\mglykofridis\mslearn-tailspin-spacegame-web\tailspin.spacegame.web.tests\bin\release\netcoreapp3.1\tailspin.spacegame.web.tests.dll" id="71b55203-9f41-f140-7b8a-b173669f83d5">
+      <Execution id="4fd49035-0409-49d9-9bd7-4be100c114ab" />
+      <TestMethod codeBase="C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tests.DocumentDBRepository_GetItemsAsyncShould" name="FetchOnlyRequestedGameRegion(&quot;Messier 82&quot;)" />
+    </UnitTest>
+    <UnitTest name="FetchOnlyRequestedGameRegion(&quot;Pinwheel&quot;)" storage="c:\users\mglykofridis\mslearn-tailspin-spacegame-web\tailspin.spacegame.web.tests\bin\release\netcoreapp3.1\tailspin.spacegame.web.tests.dll" id="e6aa1db8-79bb-5f9e-f506-6e6015603603">
+      <Execution id="0279e00d-37aa-497c-9764-db972d687059" />
+      <TestMethod codeBase="C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tests.DocumentDBRepository_GetItemsAsyncShould" name="FetchOnlyRequestedGameRegion(&quot;Pinwheel&quot;)" />
+    </UnitTest>
+    <UnitTest name="FetchOnlyRequestedGameRegion(&quot;Andromeda&quot;)" storage="c:\users\mglykofridis\mslearn-tailspin-spacegame-web\tailspin.spacegame.web.tests\bin\release\netcoreapp3.1\tailspin.spacegame.web.tests.dll" id="8158b57c-2d66-8b32-96cb-f229ab2b8992">
+      <Execution id="c64bee46-18d2-444f-86e4-023e67408b14" />
+      <TestMethod codeBase="C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Tests.DocumentDBRepository_GetItemsAsyncShould" name="FetchOnlyRequestedGameRegion(&quot;Andromeda&quot;)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e6aa1db8-79bb-5f9e-f506-6e6015603603" executionId="0279e00d-37aa-497c-9764-db972d687059" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a665ae80-d9ef-3d21-de02-f9894a2373ef" executionId="1da16689-7953-404a-bfb8-55accaebb6f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71b55203-9f41-f140-7b8a-b173669f83d5" executionId="4fd49035-0409-49d9-9bd7-4be100c114ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd69ca11-8574-49f6-142c-a0d7db5e68b0" executionId="d0890be9-d9af-4a05-a862-d5bf7399d5b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8158b57c-2d66-8b32-96cb-f229ab2b8992" executionId="c64bee46-18d2-444f-86e4-023e67408b14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.10.0.21: Test execution started&#xD;
+Running all tests in C:\Users\mglykofridis\mslearn-tailspin-spacegame-web\Tailspin.SpaceGame.Web.Tests\bin\Release\netcoreapp3.1\Tailspin.SpaceGame.Web.Tests.dll&#xD;
+NUnit3TestExecutor converted 5 of 5 NUnit test cases&#xD;
+NUnit Adapter 3.10.0.21: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
